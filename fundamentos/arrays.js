@@ -18,3 +18,5 @@ console.log(valores) // [ 7.7, 8.9, 6.3, 9.2, 10, { id: 3 }, false, null, 'teste
 console.log(valores.pop()) // imprime excluindo o último
 delete valores[0] // apaga o primeiro
 console.log(valores) // 
+
+console.log(typeof valores) // object (array é um objeto)
